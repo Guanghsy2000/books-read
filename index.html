@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <link href="http://cdn.bootcss.com/pace/1.0.2/themes/green/pace-theme-bounce.css" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/css/style.css">
+</head>
+
+<body>
+    <div ng-app="app">
+        <div class="page-header">
+            <h1 class="header-title">儿童图书展示系统</h1>
+        </div>
+
+        <div ng-view></div>
+
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#/">首页</a></li>
+                    <li role="presentation"><a href="#/list">列表页</a></li>
+                    <li role="presentation"><a href="#/news">最新资讯</a></li>
+                    <li role="presentation"><a href="#/me">关于我</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <!--引入angularjs-->
+    <script src="./lib/js/angular.min.js"></script>
+    <!--引入ngRoute路由文件-->
+    <script src="./lib/js/angular-route.min.js"></script>
+    <!--引入ngSanitize文件用于渲染视图-->
+    <script src="./lib/js/angular-sanitize.min.js"></script>
+    <!--引入主入口文件-->
+    <script src="./main.js"></script>
+    <!--引入自定义api服务文件-->
+    <script src="./services/api_services.js"></script>
+    <!--引入控制文件-->
+    <script src="./controllers/listCtrl.js"></script>
+    <script src="./controllers/bookContent.js"></script>
+    <!--页面等待效果-->
+    <script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+</body>
+
+</html>

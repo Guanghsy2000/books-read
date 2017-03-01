@@ -1,0 +1,12 @@
+<div class="list-group"> 
+    <div class="container" id="book-list">
+        <a href="#/book_content/{{book.id}}" class="list-group-item" ng-repeat="book in list">
+            <h4 class="list-group-item-heading" id="list-title">{{book.title}}</h4>
+            <p class="list-group-item-text" id="list-descriptions">{{book.descriptions}}</p>
+            <p class="text-right">点击进入....</p>
+        </a>
+        <span class="input-group-btn">
+            <button type="button" class="btn btn-success btn-block" ng-click="bookListAdd(pageSum)">{{judgePage?'点击查看更多':'已经到最底部了!!'}}</button>
+        </span>
+    </div>
+</div>
