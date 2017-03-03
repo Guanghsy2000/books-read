@@ -7,6 +7,8 @@
 加载完运行
     $ gulp browser
 ```
+####效果展示
+![效果展示](https://raw.githubusercontent.com/Guanghsy2000/books-read/master/demo.gif)
 
 #### controllers文件夹
 ```
