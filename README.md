@@ -7,7 +7,7 @@
 加载完运行
     $ gulp browser
 ```
-####效果展示
+####效果展示(效果为GIF图,网络可能会造成轻微卡顿,重新刷新网页即可)
 ![效果展示](https://raw.githubusercontent.com/Guanghsy2000/books-read/master/demo.gif)
 
 #### controllers文件夹
